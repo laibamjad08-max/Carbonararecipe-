@@ -1,151 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Authentic Spaghetti Carbonara: The Complete Guide to Rome's Iconic Pasta</title>
-<meta name="description" content="Learn how to make authentic Roman spaghetti carbonara with guanciale, eggs, Pecorino Romano and black pepper. Includes history, tips, mistakes to avoid and FAQs.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-<style>
-  :root { --bg:#fffaf3; --card:#ffffff; --text:#2b2522; --muted:#6b625c; --accent:#c0392b; --accent2:#f4b942; --soft:#fdeee3; --line:#eadfd3; }
-  @media (prefers-color-scheme: dark) {
-    :root { --bg:#16120f; --card:#211b17; --text:#f1e9e1; --muted:#b3a79d; --accent:#ef7d6a; --accent2:#f4b942; --soft:#2c221b; --line:#3a2f27; }
-  }
-  * { box-sizing:border-box; }
-  body { font-family:Inter, system-ui, sans-serif; background:var(--bg); color:var(--text); line-height:1.75; margin:0; font-size:17px; }
-  .hero { background:linear-gradient(135deg,#c0392b,#e67e22 60%,#f4b942); color:#fff; padding:64px 20px 56px; text-align:center; }
-  .hero .tag { display:inline-block; background:rgba(255,255,255,.2); padding:4px 14px; border-radius:999px; font-size:.8rem; letter-spacing:.08em; text-transform:uppercase; margin-bottom:16px; }
-  .hero h1 { font-family:"Playfair Display", Georgia, serif; font-size:clamp(1.9rem,5vw,3rem); line-height:1.2; margin:0 auto; max-width:800px; }
-  .hero .meta { margin-top:18px; font-size:.95rem; opacity:.95; }
-  article { max-width:780px; margin:-28px auto 48px; background:var(--card); padding:36px clamp(18px,5vw,48px); border-radius:18px; box-shadow:0 10px 40px rgba(0,0,0,.10); }
-  h2 { font-family:"Playfair Display", Georgia, serif; font-size:1.6rem; color:var(--accent); margin:2.2rem 0 .6rem; padding-left:14px; border-left:5px solid var(--accent2); }
-  h3 { font-size:1.05rem; margin:1.2rem 0 4px; }
-  p { margin:0 0 1rem; }
-  ul, ol { padding-left:1.3rem; }
-  li { margin-bottom:8px; }
-  h2 + ul { background:var(--soft); border:1px solid var(--line); border-radius:14px; padding:18px 18px 10px 38px; }
-  ol { counter-reset:step; list-style:none; padding:0; }
-  ol li { counter-increment:step; position:relative; padding:14px 16px 14px 62px; margin-bottom:12px; background:var(--soft); border-radius:14px; border:1px solid var(--line); }
-  ol li::before { content:counter(step); position:absolute; left:16px; top:12px; width:34px; height:34px; border-radius:50%; background:var(--accent); color:#fff; font-weight:600; display:flex; align-items:center; justify-content:center; }
-  .faq h3 { background:var(--soft); border:1px solid var(--line); border-radius:12px 12px 0 0; padding:12px 16px; margin:14px 0 0; }
-  .faq p { border:1px solid var(--line); border-top:0; border-radius:0 0 12px 12px; padding:12px 16px; margin:0; color:var(--muted); }
-  h2:last-of-type { margin-top:2.2rem; }
-  footer { text-align:center; color:var(--muted); font-size:.85rem; padding:0 16px 40px; }
-  figure { margin:1.6rem 0; }
-  figure img { width:100%; height:auto; display:block; border-radius:14px; box-shadow:0 6px 24px rgba(0,0,0,.15); }
-  figcaption { text-align:center; font-size:.85rem; color:var(--muted); margin-top:8px; font-style:italic; }
-  .cta { margin:2rem 0 0; padding:22px; text-align:center; background:var(--soft); border:2px dashed var(--accent); border-radius:16px; }
-  .cta p { margin:0 0 12px; }
-  .btn { display:inline-block; background:var(--accent); color:#fff; text-decoration:none; font-weight:600; padding:12px 26px; border-radius:999px; transition:transform .15s, box-shadow .15s; }
-  .btn:hover { transform:translateY(-2px); box-shadow:0 6px 16px rgba(0,0,0,.2); }
-  a { color:var(--accent); }
-</style>
+<title>Carbonara Recipe: Authentic Italian and Easy Variations</title>
+<meta name="description" content="Find a carbonara recipe that works every time: classic Roman method, easy weeknight version, chicken, creamy, and no-cream carbonara with clear steps and fixes.">
+<!-- After publishing, replace YOUR-USERNAME below with your GitHub username -->
+<link rel="canonical" href="https://YOUR-USERNAME.github.io/carbonara-recipe/">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"Carbonara Recipe","url":"https://YOUR-USERNAME.github.io/carbonara-recipe/"}
+</script>
 </head>
 <body>
-<header class="hero">
-  <span class="tag">Italian Classics</span>
-  <h1>Authentic Spaghetti Carbonara: The Complete Guide to Rome's Iconic Pasta</h1>
-  <div class="meta">&#9201; 20 min &nbsp;&bull;&nbsp; &#127869; Serves 2 &nbsp;&bull;&nbsp; &#127470;&#127481; Roman Recipe</div>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html"><span class="logo-mark" aria-hidden="true">C</span>Carbonara Recipe</a>
+    <nav class="nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="recipes/">Recipes</a></li>
+        <li><a href="categories/">Categories</a></li>
+        <li><a href="pasta-cooking-guides/">Cooking Guides</a></li>
+        <li><a href="about-us/">About Us</a></li>
+        <li><a href="contact-us/">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
-<article>
 
-<h2>Introduction</h2>
-<p>Few dishes are as simple and as impressive as spaghetti <a href="https://github.com/laibamjad08-max/Carbonararecipe-" target="_blank" rel="noopener noreferrer">carbonara</a>. With just a handful of ingredients, you get a silky, savory pasta that tastes like it came from a Roman trattoria. The secret is not cream or fancy tools. It is technique, timing, and good ingredients. This guide covers the history, the authentic recipe, expert tips, and answers to the most common questions.</p>
+<main id="main">
 
-<figure>
-  <!-- Replace src with your own photo URL, e.g. src="images/carbonara.jpg" -->
-  <img src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%271200%27%20height%3D%27600%27%20viewBox%3D%270%200%201200%20600%27%3E%3Cdefs%3E%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20y1%3D%270%27%20x2%3D%271%27%20y2%3D%271%27%3E%3Cstop%20offset%3D%270%27%20stop-color%3D%27%23c0392b%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%23f4b942%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width%3D%271200%27%20height%3D%27600%27%20fill%3D%27url%28%23g%29%27/%3E%3Ctext%20x%3D%27600%27%20y%3D%27300%27%20font-size%3D%27170%27%20text-anchor%3D%27middle%27%3E%F0%9F%8D%9D%3C/text%3E%3Ctext%20x%3D%27600%27%20y%3D%27440%27%20font-size%3D%2744%27%20fill%3D%27white%27%20text-anchor%3D%27middle%27%20font-family%3D%27sans-serif%27%3ECreamy%20Spaghetti%20Carbonara%3C/text%3E%3C/svg%3E" alt="Plate of creamy spaghetti carbonara with crispy guanciale and black pepper" width="1200" height="600" loading="lazy">
-  <figcaption>Classic Roman carbonara: creamy, peppery and ready in 20 minutes.</figcaption>
-</figure>
-
-<h2>What Is Carbonara?</h2>
-<p>Carbonara is a classic Italian pasta from Rome, made with eggs, hard cheese, cured pork, and black pepper. The sauce forms when hot pasta meets a mixture of egg and cheese, creating a creamy coating without any cream. The result is rich, peppery, and deeply satisfying.</p>
-
-<h2>A Brief History</h2>
-<p>The exact origin of carbonara is debated. One popular theory links it to <em>carbonari</em> (charcoal workers) who supposedly cooked it with simple, long-lasting ingredients. Another suggests it emerged in Rome during or just after World War II, when Allied soldiers' rations of eggs and bacon met Italian pasta. What we know for certain is that the dish became a Roman staple in the mid-20th century and is now loved worldwide.</p>
-
-<h2>Ingredients (Serves 2)</h2>
-<ul>
-  <li>200 g spaghetti (or rigatoni)</li>
-  <li>100 g guanciale (cured pork cheek), or pancetta as a substitute</li>
-  <li>2 whole eggs plus 2 egg yolks</li>
-  <li>50 g Pecorino Romano, finely grated</li>
-  <li>Freshly ground black pepper</li>
-  <li>Salt for the pasta water</li>
-</ul>
-
-<figure>
-  <!-- Replace src with your own photo URL, e.g. src="images/carbonara.jpg" -->
-  <img src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%271200%27%20height%3D%27600%27%20viewBox%3D%270%200%201200%20600%27%3E%3Cdefs%3E%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20y1%3D%270%27%20x2%3D%271%27%20y2%3D%271%27%3E%3Cstop%20offset%3D%270%27%20stop-color%3D%27%238e3b2a%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%23e67e22%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width%3D%271200%27%20height%3D%27600%27%20fill%3D%27url%28%23g%29%27/%3E%3Ctext%20x%3D%27600%27%20y%3D%27300%27%20font-size%3D%27170%27%20text-anchor%3D%27middle%27%3E%F0%9F%A5%93%3C/text%3E%3Ctext%20x%3D%27600%27%20y%3D%27440%27%20font-size%3D%2744%27%20fill%3D%27white%27%20text-anchor%3D%27middle%27%20font-family%3D%27sans-serif%27%3EGuanciale%2C%20Eggs%20%26amp%3B%20Pecorino%3C/text%3E%3C/svg%3E" alt="Carbonara ingredients: guanciale, eggs, Pecorino Romano and black pepper" width="1200" height="600" loading="lazy">
-  <figcaption>The five essentials: guanciale, eggs, Pecorino, pepper and spaghetti.</figcaption>
-</figure>
-
-<h2>Step-by-Step Instructions</h2>
-<ol>
-  <li><strong>Prepare the guanciale.</strong> Cut it into small strips or cubes. Place them in a cold, dry pan and cook over medium-low heat for 8 to 10 minutes until golden and crisp. The fat will render out. Turn off the heat.</li>
-  <li><strong>Mix the sauce.</strong> In a bowl, whisk the eggs, yolks, most of the Pecorino, and plenty of black pepper into a thick paste.</li>
-  <li><strong>Cook the pasta.</strong> Boil spaghetti in well-salted water until al dente. Reserve a cup of the starchy pasta water before draining.</li>
-  <li><strong>Combine.</strong> Add the drained pasta to the pan with the guanciale and its fat, off the heat. Toss well so the pasta absorbs the flavor.</li>
-  <li><strong>Add the sauce.</strong> Let the pan cool for a few seconds, then pour in the egg mixture. Toss quickly, adding splashes of pasta water until the sauce turns glossy and creamy.</li>
-  <li><strong>Serve immediately.</strong> Top with extra Pecorino and black pepper.</li>
-</ol>
-
-<h2>Expert Tips for Perfect Carbonara</h2>
-<ul>
-  <li><strong>Control the heat.</strong> The residual heat of the pasta cooks the eggs gently. Direct heat will scramble them.</li>
-  <li><strong>Use pasta water.</strong> Its starch helps emulsify the sauce into a smooth, velvety texture.</li>
-  <li><strong>Grate cheese finely.</strong> Fine cheese melts evenly and avoids clumps.</li>
-  <li><strong>Use room-temperature eggs.</strong> They blend more smoothly and are less likely to curdle.</li>
-  <li><strong>Eat right away.</strong> Carbonara is at its best fresh from the pan.</li>
-</ul>
-
-<figure>
-  <!-- Replace src with your own photo URL, e.g. src="images/carbonara.jpg" -->
-  <img src="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%271200%27%20height%3D%27600%27%20viewBox%3D%270%200%201200%20600%27%3E%3Cdefs%3E%3ClinearGradient%20id%3D%27g%27%20x1%3D%270%27%20y1%3D%270%27%20x2%3D%271%27%20y2%3D%271%27%3E%3Cstop%20offset%3D%270%27%20stop-color%3D%27%23d35400%27/%3E%3Cstop%20offset%3D%271%27%20stop-color%3D%27%23f1c40f%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width%3D%271200%27%20height%3D%27600%27%20fill%3D%27url%28%23g%29%27/%3E%3Ctext%20x%3D%27600%27%20y%3D%27300%27%20font-size%3D%27170%27%20text-anchor%3D%27middle%27%3E%F0%9F%91%A8%E2%80%8D%F0%9F%8D%B3%3C/text%3E%3Ctext%20x%3D%27600%27%20y%3D%27440%27%20font-size%3D%2744%27%20fill%3D%27white%27%20text-anchor%3D%27middle%27%20font-family%3D%27sans-serif%27%3EToss%20Off%20the%20Heat%3C/text%3E%3C/svg%3E" alt="Tossing pasta with egg and cheese sauce in a pan off the heat" width="1200" height="600" loading="lazy">
-  <figcaption>Toss off the heat for a silky, glossy sauce.</figcaption>
-</figure>
-
-<h2>Common Mistakes to Avoid</h2>
-<p><strong>Adding cream.</strong> Traditional carbonara never uses it. The creaminess comes from eggs, cheese, and pasta water.</p>
-<p><strong>Scrambling the eggs.</strong> This happens when the pan is too hot. Always combine off the heat.</p>
-<p><strong>Using the wrong pork.</strong> Guanciale gives the most authentic flavor. If unavailable, pancetta is the best substitute. Regular bacon works, but its smokiness changes the taste.</p>
-<p><strong>Overcooking the pasta.</strong> Al dente pasta holds the sauce better and keeps its texture.</p>
-
-<h2>Popular Variations</h2>
-<p>While purists stick to the classic, there are tasty twists. Some cooks use Parmigiano-Reggiano alongside or instead of Pecorino for a milder flavor. Others swap in rigatoni or mezzi paccheri, which catch the sauce well. For a vegetarian version, sautéed mushrooms or smoked zucchini can replace the pork, though it will no longer be traditional carbonara.</p>
-
-<h2>Frequently Asked Questions (FAQs)</h2>
-<div class="faq">
-  <h3>1. Does authentic carbonara contain cream?</h3>
-  <p>No. Authentic Roman carbonara uses only eggs, cheese, pork, pasta, and pepper. The creamy texture comes from emulsifying the egg and cheese with starchy pasta water.</p>
-
-  <h3>2. What can I use instead of guanciale?</h3>
-  <p>Pancetta is the closest alternative. Unsmoked bacon can also work in a pinch.</p>
-
-  <h3>3. Is it safe to eat the eggs in carbonara?</h3>
-  <p>The eggs are gently cooked by the hot pasta, but not fully. If you are concerned, use fresh, high-quality or pasteurized eggs, or avoid serving it to pregnant women, young children, or people with weakened immunity.</p>
-
-  <h3>4. Why did my sauce turn into scrambled eggs?</h3>
-  <p>The pan was probably too hot. Remove it from the heat before adding the egg mixture, and keep tossing while adding pasta water.</p>
-
-  <h3>5. Can I reheat leftover carbonara?</h3>
-  <p>It is best fresh, as the sauce can become clumpy. If needed, reheat gently on low heat with a splash of water, stirring constantly.</p>
-
-  <h3>6. Which pasta shape is best?</h3>
-  <p>Spaghetti is classic, but rigatoni, fettuccine, and bucatini also work well.</p>
+<div class="hero">
+  <div class="wrap">
+    <div>
+      <h1>Carbonara Recipe: Authentic Italian Pasta and Easy Variations</h1>
+      <p class="lead">Silky sauce, crisp pork, no scrambled eggs. Every carbonara recipe here has simple steps, exact measurements, and fixes for the things that usually go wrong.</p>
+      <p>Start with the <a href="classic-carbonara-recipe/">classic carbonara recipe</a> if you want the traditional Roman method, or pick the <a href="easy-carbonara-recipe/">easy carbonara recipe</a> if you are cooking it for the first time.</p>
+      <a class="btn" href="classic-carbonara-recipe/">Get the classic recipe</a>
+      <a class="btn alt" href="recipes/">Browse all recipes</a>
+    </div>
+    <img class="hero-img" src="images/classic-carbonara-recipe-hero.webp" width="800" height="600" alt="Plate of spaghetti carbonara with crispy guanciale and black pepper" fetchpriority="high">
+  </div>
 </div>
 
-<h2>Conclusion</h2>
-<p>Carbonara proves that great food does not need complicated steps. With quality ingredients, careful heat control, and a little practice, you can make a restaurant-worthy dish in about 20 minutes. Skip the cream, trust the technique, and enjoy one of Italy's most beloved comfort foods. You can also find the full recipe here: <a href="https://github.com/laibamjad08-max/Carbonararecipe-" target="_blank" rel="noopener noreferrer" style="word-break:break-all">https://github.com/laibamjad08-max/Carbonararecipe-</a></p>
+<section aria-labelledby="featured">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="featured">Featured recipe</h2></div>
+    <article class="featured">
+      <img src="images/classic-carbonara-recipe-featured.webp" width="700" height="500" alt="Spaghetti carbonara being tossed in a pan with egg and cheese sauce" loading="lazy">
+      <div class="body">
+        <span class="tag">Classic Carbonara</span>
+        <h3 style="font-size:1.6rem"><a href="classic-carbonara-recipe/" style="text-decoration:none">Classic Carbonara Recipe</a></h3>
+        <p>The traditional method with guanciale, egg yolks, Pecorino Romano, and black pepper. No cream, and a sauce that stays glossy instead of scrambled.</p>
+        <ul class="facts">
+          <li><strong>10 min</strong>Prep</li>
+          <li><strong>15 min</strong>Cook</li>
+          <li><strong>4</strong>Servings</li>
+        </ul>
+        <a class="btn" href="classic-carbonara-recipe/">See the full recipe</a>
+      </div>
+    </article>
+  </div>
+</section>
 
-<div class="cta">
-  <p><strong>Want the full recipe project?</strong> View the complete carbonara recipe on GitHub.</p>
-  <a class="btn" href="https://github.com/laibamjad08-max/Carbonararecipe-" target="_blank" rel="noopener noreferrer">View on GitHub &rarr;</a>
-</div>
+<section class="alt-bg" aria-labelledby="popular">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="popular">Popular carbonara recipes</h2><a href="recipes/">View all recipes</a></div>
+    <div class="grid">
+      <article class="card">
+        <img src="images/easy-carbonara-recipe.webp" width="600" height="400" alt="Easy carbonara in a white bowl with bacon and grated cheese" loading="lazy">
+        <div class="body"><span class="tag">Classic Carbonara</span>
+          <h3><a href="easy-carbonara-recipe/">Easy Carbonara Recipe</a></h3>
+          <p>A beginner-friendly version using ingredients from any supermarket.</p></div>
+      </article>
+      <article class="card">
+        <img src="images/chicken-carbonara-recipe.webp" width="600" height="400" alt="Chicken carbonara with sliced chicken breast over spaghetti" loading="lazy">
+        <div class="body"><span class="tag">Carbonara Variations</span>
+          <h3><a href="chicken-carbonara-recipe/">Chicken Carbonara Recipe</a></h3>
+          <p>Juicy chicken added to the classic egg and cheese sauce.</p></div>
+      </article>
+      <article class="card">
+        <img src="images/creamy-carbonara-recipe.webp" width="600" height="400" alt="Creamy carbonara pasta in a skillet with parsley" loading="lazy">
+        <div class="body"><span class="tag">Carbonara Variations</span>
+          <h3><a href="creamy-carbonara-recipe/">Creamy Carbonara Recipe</a></h3>
+          <p>A richer, cream-style sauce for anyone who prefers it extra smooth.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
 
-</article>
-<footer>Buon appetito! &#127837;</footer>
+<section aria-labelledby="latest">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="latest">Latest articles</h2><a href="pasta-cooking-guides/">All cooking guides</a></div>
+    <div class="grid">
+      <article class="card">
+        <img src="images/carbonara-recipe-without-cream.webp" width="600" height="400" alt="Glossy carbonara sauce made without cream coating spaghetti" loading="lazy">
+        <div class="body"><span class="tag">Carbonara Variations</span>
+          <h3><a href="carbonara-recipe-without-cream/">Carbonara Recipe Without Cream</a></h3>
+          <p>Why real carbonara needs no cream and how to get a silky sauce anyway.</p></div>
+      </article>
+      <article class="card">
+        <img src="images/how-to-make-carbonara-sauce.webp" width="600" height="400" alt="Whisking egg yolks and grated cheese for carbonara sauce" loading="lazy">
+        <div class="body"><span class="tag">Pasta Cooking Guides</span>
+          <h3><a href="how-to-make-carbonara-sauce/">How to Make Carbonara Sauce</a></h3>
+          <p>Temperature, timing, and pasta water explained step by step.</p></div>
+      </article>
+      <article class="card">
+        <img src="images/fix-carbonara-sauce-problems.webp" width="600" height="400" alt="Spoon lifting smooth carbonara sauce from a pan" loading="lazy">
+        <div class="body"><span class="tag">Pasta Cooking Guides</span>
+          <h3><a href="fix-carbonara-sauce-problems/">Fix Scrambled, Dry, and Watery Carbonara</a></h3>
+          <p>Rescue a sauce that went wrong, and learn how to stop it happening again.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="alt-bg cats" aria-labelledby="cats">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="cats">Recipe categories</h2></div>
+    <div class="grid">
+      <article class="card"><div class="body">
+        <h3><a href="classic-carbonara/">Classic Carbonara</a></h3>
+        <p>Traditional and beginner-friendly carbonara recipes.</p></div></article>
+      <article class="card"><div class="body">
+        <h3><a href="carbonara-variations/">Carbonara Variations</a></h3>
+        <p>Chicken, creamy, and no-cream versions of the favorite.</p></div></article>
+      <article class="card"><div class="body">
+        <h3><a href="pasta-cooking-guides/">Pasta Cooking Guides</a></h3>
+        <p>Sauce technique, timing, and troubleshooting.</p></div></article>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="tips">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="tips">Carbonara cooking tips</h2></div>
+    <div class="tips">
+      <div class="tip"><h3>Take the pan off the heat</h3>
+        <p>Add the egg mixture away from direct heat so it thickens gently. Full details are in our <a href="how-to-make-carbonara-sauce/">carbonara sauce guide</a>.</p></div>
+      <div class="tip"><h3>Save the pasta water</h3>
+        <p>Starchy water turns eggs and cheese into a glossy sauce. Keep a cup before you drain.</p></div>
+      <div class="tip"><h3>Grate the cheese finely</h3>
+        <p>Fine cheese melts smoothly. Coarse shreds tend to clump, so see <a href="fix-carbonara-sauce-problems/">how to fix clumpy carbonara</a>.</p></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h2>Carbonara Recipe</h2>
+        <p>Clear, tested carbonara recipes and cooking guides for home cooks everywhere.</p>
+      </div>
+      <div>
+        <h2>Explore</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="recipes/">Recipes</a></li>
+          <li><a href="categories/">Categories</a></li>
+          <li><a href="pasta-cooking-guides/">Cooking Guides</a></li>
+          <li><a href="about-us/">About Us</a></li>
+          <li><a href="contact-us/">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Legal</h2>
+        <ul>
+          <li><a href="privacy-policy/">Privacy Policy</a></li>
+          <li><a href="disclaimer/">Disclaimer</a></li>
+          <li><a href="terms-and-conditions/">Terms and Conditions</a></li>
+          <li><a href="cookie-policy/">Cookie Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copy">&copy; 2026 Carbonara Recipe. All rights reserved.</p>
+  </div>
+</footer>
 </body>
 </html>
